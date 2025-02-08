@@ -23,12 +23,19 @@
         <LegHeight Value="0.000000"/>
       </Properties>
     </PhysicalDescriptions>
-    <Models/>
-    <Geometries/>
+    <Models>
+      <Model File="" Height="1.000000" Length="1.000000" Name="Default Base" PrimitiveType="Base1_1" SVGFrontOffsetX="0.000000" SVGFrontOffsetY="0.000000" SVGOffsetX="0.000000" SVGOffsetY="0.000000" SVGSideOffsetX="0.000000" SVGSideOffsetY="0.000000" Width="1.000000"/>
+      <Model File="" Height="1.000000" Length="1.000000" Name="Geometry 1" PrimitiveType="Yoke" SVGFrontOffsetX="0.000000" SVGFrontOffsetY="0.000000" SVGOffsetX="0.000000" SVGOffsetY="0.000000" SVGSideOffsetX="0.000000" SVGSideOffsetY="0.000000" Width="1.000000"/>
+      <Model File="" Height="1.000000" Length="1.000000" Name="Geometry 2" PrimitiveType="Head" SVGFrontOffsetX="0.000000" SVGFrontOffsetY="0.000000" SVGOffsetX="0.000000" SVGOffsetY="0.000000" SVGSideOffsetX="0.000000" SVGSideOffsetY="0.000000" Width="1.000000"/>
+    </Models>
+    <Geometries>
+      <Geometry Name="Empty Geometry 1" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+    </Geometries>
     <DMXModes/>
     <Revisions>
       <Revision Date="2021-07-05T07:56:52" ModifiedBy="" Text="" UserID="0"/>
-      <Revision Date="2025-02-08T14:29:50" ModifiedBy="GDTF Builder V1.9.3" Text="Test Upload" UserID="41823"/>
+      <Revision Date="2025-02-08T14:29:50" ModifiedBy="" Text="Test Upload" UserID="41823"/>
+      <Revision Date="2025-02-08T15:00:42" ModifiedBy="GDTF Builder V1.9.3" Text="Add Empty Geometry" UserID="41823"/>
     </Revisions>
     <FTPresets/>
     <Protocols/>

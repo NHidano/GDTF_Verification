@@ -4,8 +4,14 @@
   <FixtureType CanHaveChildren="No" Description="This fixture data is for personal technical verification." FixtureTypeID="C2F8E136-8DF3-4BFF-99FF-E8B64016C3B1" LongName="" Manufacturer="Vectorworks Inc" Name="Private_GDTF_Test" RefFT="" ShortName="" Thumbnail="" ThumbnailOffsetX="0" ThumbnailOffsetY="0">
     <AttributeDefinitions>
       <ActivationGroups/>
-      <FeatureGroups/>
-      <Attributes/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
     </AttributeDefinitions>
     <Wheels/>
     <PhysicalDescriptions>
@@ -33,7 +39,13 @@
     </Geometries>
     <DMXModes>
       <DMXMode Description="" Geometry="Empty Geometry 1" Name="Mode 1">
-        <DMXChannels/>
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Geometry="Empty Geometry 1" Highlight="None" InitialFunction="Empty Geometry 1_Dimmer.Dimmer.Dimmer 1" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" CustomName="" DMXFrom="0/1" Default="0/1" Max="1.000000" Min="0.000000" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
         <Relations/>
         <FTMacros/>
       </DMXMode>
@@ -42,7 +54,8 @@
       <Revision Date="2021-07-05T07:56:52" ModifiedBy="" Text="" UserID="0"/>
       <Revision Date="2025-02-08T14:29:50" ModifiedBy="" Text="Test Upload" UserID="41823"/>
       <Revision Date="2025-02-08T15:00:42" ModifiedBy="" Text="Add Empty Geometry" UserID="0"/>
-      <Revision Date="2025-02-08T15:18:17" ModifiedBy="GDTF Builder V1.9.3" Text="Add DMX Modes" UserID="41823"/>
+      <Revision Date="2025-02-08T15:18:17" ModifiedBy="" Text="Add DMX Modes" UserID="0"/>
+      <Revision Date="2025-02-08T15:19:43" ModifiedBy="GDTF Builder V1.9.3" Text="Add Dimmer Channel" UserID="41823"/>
     </Revisions>
     <FTPresets/>
     <Protocols/>

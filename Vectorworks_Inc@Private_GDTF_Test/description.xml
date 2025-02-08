@@ -31,11 +31,18 @@
     <Geometries>
       <Geometry Name="Empty Geometry 1" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
     </Geometries>
-    <DMXModes/>
+    <DMXModes>
+      <DMXMode Description="" Geometry="Empty Geometry 1" Name="Mode 1">
+        <DMXChannels/>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
     <Revisions>
       <Revision Date="2021-07-05T07:56:52" ModifiedBy="" Text="" UserID="0"/>
       <Revision Date="2025-02-08T14:29:50" ModifiedBy="" Text="Test Upload" UserID="41823"/>
-      <Revision Date="2025-02-08T15:00:42" ModifiedBy="GDTF Builder V1.9.3" Text="Add Empty Geometry" UserID="41823"/>
+      <Revision Date="2025-02-08T15:00:42" ModifiedBy="" Text="Add Empty Geometry" UserID="0"/>
+      <Revision Date="2025-02-08T15:18:17" ModifiedBy="GDTF Builder V1.9.3" Text="Add DMX Modes" UserID="41823"/>
     </Revisions>
     <FTPresets/>
     <Protocols/>

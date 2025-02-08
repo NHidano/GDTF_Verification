@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.2">
+
+  <FixtureType CanHaveChildren="No" Description="This fixture data is for personal technical verification." FixtureTypeID="C2F8E136-8DF3-4BFF-99FF-E8B64016C3B1" LongName="" Manufacturer="Vectorworks Inc" Name="Private_GDTF_Test" RefFT="" ShortName="" Thumbnail="" ThumbnailOffsetX="0" ThumbnailOffsetY="0">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups/>
+      <Attributes/>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB" Name=""/>
+      <AdditionalColorSpaces/>
+      <Gamuts/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties>
+        <OperatingTemperature High="40.000000" Low="0.000000"/>
+        <Weight Value="0.000000"/>
+        <LegHeight Value="0.000000"/>
+      </Properties>
+    </PhysicalDescriptions>
+    <Models/>
+    <Geometries/>
+    <DMXModes/>
+    <Revisions>
+      <Revision Date="2021-07-05T07:56:52" ModifiedBy="" Text="" UserID="0"/>
+      <Revision Date="2025-02-08T14:29:50" ModifiedBy="GDTF Builder V1.9.3" Text="Test Upload" UserID="41823"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

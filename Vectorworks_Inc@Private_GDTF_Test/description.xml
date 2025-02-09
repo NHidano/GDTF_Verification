@@ -51,9 +51,9 @@
               <ChannelFunction Attribute="Dimmer" CustomName="" DMXFrom="0/1" Default="0/1" Max="1.000000" Min="0.000000" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
             </LogicalChannel>
           </DMXChannel>
-          <DMXChannel DMXBreak="1" Geometry="Empty Geometry 1" Highlight="None" InitialFunction="Empty Geometry 1_Pan.Pan.Pan 1" Offset="2">
+          <DMXChannel DMXBreak="1" Geometry="Empty Geometry 1" Highlight="None" InitialFunction="Empty Geometry 1_Pan.Pan.Pan 1" Offset="2,3">
             <LogicalChannel Attribute="Pan" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
-              <ChannelFunction Attribute="Pan" CustomName="" DMXFrom="0/1" Default="0/1" Max="1.000000" Min="0.000000" Name="Pan 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+              <ChannelFunction Attribute="Pan" CustomName="" DMXFrom="0/2" Default="0/2" Max="1.000000" Min="0.000000" Name="Pan 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
             </LogicalChannel>
           </DMXChannel>
         </DMXChannels>
@@ -67,7 +67,8 @@
       <Revision Date="2025-02-08T15:00:42" ModifiedBy="" Text="Add Empty Geometry" UserID="0"/>
       <Revision Date="2025-02-08T15:18:17" ModifiedBy="" Text="Add DMX Modes" UserID="0"/>
       <Revision Date="2025-02-08T15:19:43" ModifiedBy="" Text="Add Dimmer Channel" UserID="41823"/>
-      <Revision Date="2025-02-09T04:09:29" ModifiedBy="GDTF Builder V1.9.3" Text="Add 16bit Channel" UserID="41823"/>
+      <Revision Date="2025-02-09T04:09:30" ModifiedBy="" Text="Add 16bit Channel" UserID="0"/>
+      <Revision Date="2025-02-09T04:40:39" ModifiedBy="GDTF Builder V1.9.3" Text="Fix 16bit Channel" UserID="41823"/>
     </Revisions>
     <FTPresets/>
     <Protocols/>
